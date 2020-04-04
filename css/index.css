@@ -1,0 +1,24 @@
+.listItem{
+    color: gray;
+    border: 1px solid black;
+    width: 48%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.videoName{
+    margin-left: 15px;
+}
+
+.videoResults{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
